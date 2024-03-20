@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-serif;
+        @apply bg-gray-900; /* Set the background color as per your preference */
+   
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+@layer utilities {
+    .content {
+        margin-top: 0px; /* Adjust the margin-top based on the height of your Navbar */
+    }
+}
